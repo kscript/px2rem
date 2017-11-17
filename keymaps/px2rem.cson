@@ -8,4 +8,5 @@
 # For more detailed documentation see
 # https://atom.io/docs/latest/behind-atom-keymaps-in-depth
 'atom-workspace':
-  'ctrl-alt-o': 'px2rem:convert'
+  'ctrl-alt-p': 'px2rem:convert'
+  'ctrl-alt-r': 'px2rem:recovery'
