@@ -2,19 +2,27 @@
 'context-menu':
   'atom-text-editor': [
     {
-      'label': 'Convert px2rem'
+      'label': 'px转rem'
       'command': 'px2rem:convert'
+    },
+    {
+      'label': 'rem转px'
+      'command': 'px2rem:recovery'
     }
   ]
 'menu': [
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'px2rem'
+      'label': 'px与rem互转'
       'submenu': [
         {
-          'label': 'Convert'
+          'label': 'px转rem'
           'command': 'px2rem:convert'
+        },
+        {
+          'label': 'rem转px'
+          'command': 'px2rem:recovery'
         }
       ]
     ]
